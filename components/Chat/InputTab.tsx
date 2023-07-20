@@ -38,6 +38,7 @@ function InputTab({ chatId }: Props) {
           `https://ui-avatars.com/api/?name=${session?.user?.name!}`,
       },
     };
+    // adds document to database
     await addDoc(
       collection(
         db,
