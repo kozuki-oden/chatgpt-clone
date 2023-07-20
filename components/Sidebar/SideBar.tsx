@@ -24,8 +24,8 @@ function SideBar() {
         <div>
           {/* New Chat Button */}
           <NewChat />
-          <div>
-            {/* Model Selection Dropdown */}
+          <div className="hidden sm:inline">
+            {/* Model Selection */}
             <ModelSelection />
           </div>
 
